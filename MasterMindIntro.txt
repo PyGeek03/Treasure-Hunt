@@ -1,0 +1,52 @@
+Finally! After all the treacherous jungles, crocodile swamps, and
+scorching deserts, you've reached the legendary treasure cave!
+
+There's just one final challenge:
+
+Centuries ago, there was also a treasure hunter who came this same 
+cave. However, when he slid open the boulder blocking the entrance,
+an ancient curse was activated, and he turned into a genie guarding 
+the cave ever since.
+
+The only way he could get the treasure is to devise secret codes so 
+difficult that you, the next adventurer who dares to come to the cave,
+cannot solve. 
+
+But if you can crack the codes, then you are the worthy champion of 
+the ancient treasure!
+
+There are 5 rounds, and in each round you have to guess the genie's 
+secret code, which consists of some digits. The range of the digits,
+the length of the code, and the number of guesses allowed depend on 
+the skill level you select:
+
+Apprentice: 4 digits from 0 to 5, 10 guesses
+Master: 5 digits from 0 to 7, 12 guesses
+Legend: 6 digits from 0 to 9, 14 guesses
+
+Remember that the genie is very cunning, so his secret code could have
+duplicate digits!
+
+With every guess, the genie will tell you how many digits you guessed
+correctly and put in the right spot (o), and how many digits you 
+guessed correctly but put in the wrong spot (x).
+
+Each round ends if you solve the code and win, or if you run out of 
+guesses and lose.
+
+If you win, you earn 3 points for each digit in the code, and 1 bonus
+point for each unused guess!
+
+But if you lose, the genie then earn 3 points for each digit in the 
+code, plus 1 point for each of your guess with no more correct digits 
+in the right spot than the previous guess.
+
+Whoever wins more than 3 rounds in a row will also receive a bonus of
+10 points!
+
+After 5 rounds, your score will be compared with the genie's score, 
+and the one with higher points wins the treasure!
+
+Note: You can quit the game at any point. But if you decide to quit 
+before completing 5 rounds, you will lose the treasure to the genie. 
+So think twice before quitting!
