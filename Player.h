@@ -5,33 +5,33 @@
 
 class Player { // abstract class
 public:
-	// Constructors
-	Player();
-	Player(std::string playerName);
+    // Constructors
+    Player();
+    Player(std::string playerName);
 
-	// Virtual destructor
-	virtual ~Player();
+    // Virtual destructor
+    virtual ~Player();
 
-	// Accessor functions
+    // Accessor functions
 
-	virtual std::string getName() const = 0;
-	short getScore() const;
-	short getConsecutiveWins() const;
+    virtual std::string getName() const = 0;
+    short getScore() const;
+    short getConsecutiveWins() const;
 
 
-	// Mutator functions
+    // Mutator functions
 
-	virtual void resetStats();
-	void updateScore(short value);
-	void resetConsecutiveWins();
-	void incrementConsecutiveWins();
+    virtual void resetStats();
+    void updateScore(short value);
+    void resetConsecutiveWins();
+    void incrementConsecutiveWins();
 
 
 protected:
-	// Variables
-	std::string name;
-	short score;
-	short consecutiveWins;
+    // Variables
+    std::string name;
+    short score;
+    short consecutiveWins;
 };
 
 #endif // !PLAYER_H

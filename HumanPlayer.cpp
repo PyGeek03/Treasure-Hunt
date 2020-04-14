@@ -3,15 +3,15 @@
 // Default constructor
 HumanPlayer::HumanPlayer() : Player()
 {
-	skillLevel = 0;
-	roundsPlayed = 0;
+    skillLevel = 0;
+    roundsPlayed = 0;
 }
 
 // Usual creation constructor
 HumanPlayer::HumanPlayer(std::string name, short level) : Player(name)
 {
-	skillLevel = level;
-	roundsPlayed = 0;
+    skillLevel = level;
+    roundsPlayed = 0;
 }
 
 // Destructor
@@ -35,13 +35,13 @@ short HumanPlayer::getRoundsPlayed() const { return roundsPlayed; }
 // Resets human player's stats (except for skillLevel)
 void HumanPlayer::resetStats()
 {
-	Player::resetStats();
-	roundsPlayed = 0;
+    Player::resetStats();
+    roundsPlayed = 0;
 }
 
 // Add 1 to the number of rounds played
 void HumanPlayer::incrementRoundsPlayed()
 {
-	roundsPlayed++;
+    roundsPlayed++;
 }
 

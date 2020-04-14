@@ -2,16 +2,16 @@
 #include "IO.h" 
 
 int main() {
-	// seed randoms
-	srand(unsigned(time(NULL)));
+    // seed randoms
+    srand(unsigned(time(NULL)));
 
-	// create new game interface
-	IO io;
+    // create new game interface
+    IO io;
 
-	// play a new game!
-	io.newGame();
+    // play a new game!
+    io.newGame();
 
-	// exit
+    // exit
     std::cin.get(); // pause
-	return 0;
+    return 0;
 }
